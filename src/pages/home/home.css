@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+  }
+  
+  .homecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #565656;
+    color: rgb(255, 255, 255);
+  }
+  
+  .homeheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    flex: 1;
+    height: 33.33vh; 
+  }
+  
+  .bigsvg {
+    width: 200px;
+  }
+  
+  .homemidsection {
+    padding-bottom: 20px; 
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+ .purpose {
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+  
+  .homefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+  }
+
+  .registerbtn {
+   width: 90vw;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: #252629;
+   color: #fefefe;
+   padding-top:10px ;
+   padding-bottom:10px ;
+   border-color: #fefefe;
+  }
+
+  .lgnbtn {
+   width: 90vw;
+   margin-bottom: 150px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color:  #565656;;
+   color: #fefefe;
+   padding-top:10px ;
+   padding-bottom:10px ;
+   border-color: #fefefe;
+  }
+  

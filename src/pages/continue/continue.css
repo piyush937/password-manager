@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+  }
+  
+  .continuecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #565656;
+    color: rgb(255, 255, 255);
+  }
+  
+  .continueheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    flex: 2; 
+    height: 20vh;
+  }
+  
+  .smalsvg {
+    width: 100px;
+  }
+  
+  .continuemidsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* justify-content: center;*/
+    min-width: 80vw;
+    flex: 1; 
+    height: 40vh;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .gettingback{
+    color: #fefefe;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .cform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #email {
+    min-width: 78vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+ 
+
+ .hvprob {
+    font-size: 20px;
+ }
+
+  
+  .continuefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    flex: 4; 
+    height: 40vh;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  
+  
+  .buttn {
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #919191;
+    color: #fefefe;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    border-style: none;
+    color: #252629;
+    font-size: 25px;
+  }
+  

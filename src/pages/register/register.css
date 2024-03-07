@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+  }
+  
+  .registercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #565656;
+    color: rgb(255, 255, 255);
+  }
+  
+  .registerheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    flex: 2; 
+    height: 20vh;
+  }
+  
+  .smsvg {
+    width: 100px;
+  }
+  
+  .registermidsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* justify-content: center;*/
+    min-width: 80vw;
+    flex: 1; 
+    height: 40vh;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .table {
+    min-width: 80vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-bottom: 7px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  justify-content: flex-start;
+
+  }
+
+  .registerbutton {
+    width: 40vw;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: #252629;
+   color: #fefefe;
+   padding-top:5px ;
+   padding-bottom:5px ;
+   border-color: #fefefe;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   margin-right: 1px;
+   margin-left: 4px;
+  }
+
+  .loginbtn {
+    width: 40vw;
+ border-style: none;
+ padding-top:5px ;
+   padding-bottom:5px ;
+ background-color: #565656;
+ color: #fefefe; 
+ cursor: pointer;
+}
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #email {
+    min-width: 78vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #pwd {
+    min-width: 78vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #confirmPwd{
+    min-width: 78vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .registerfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    flex: 4; 
+    height: 40vh;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  .paragraph {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #d2d2d2;
+  }
+  
+  .btn {
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #919191;
+    color: #fefefe;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    border-style: none;
+    color: #252629;
+    font-size: 25px;
+  }
+  
