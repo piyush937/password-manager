@@ -6,6 +6,7 @@ import Register from './pages/register/Register';
 import Login from './pages/login/Login';
 import Continue from './pages/continue/Continue';
 import Contact from './pages/contact/Contact';
+import Password from './pages/password/Password';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/continue" element={<Continue />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/password" element={<Password />} />
       </Routes>
     </Router>
   );
