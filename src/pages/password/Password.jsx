@@ -136,7 +136,7 @@ export default function Password() {
   };
   const handleNavItemClick = (navItem) => {
     setActiveNavItem(navItem);
-  };
+  };   
   return (
     <>
       <div className="container">
@@ -243,6 +243,10 @@ export default function Password() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
+              cursor:"pointer",
+            }}
+            onClick={() =>{
+              window.location.href = '/favourite';
             }}
           >
             <img
@@ -262,6 +266,9 @@ export default function Password() {
               justifyContent: "center",
               alignItems: "center",
             }}
+            onClick={() =>{
+              window.location.href = '/profile';
+            }}
           >
             <img
               src={profile}
@@ -280,6 +287,9 @@ export default function Password() {
               justifyContent: "center",
               alignItems: "center",
             }}
+            onClick={() =>{
+              window.location.href = '/generatePassword';
+            }}
           >
             <img
               src={addcircle}
@@ -297,6 +307,9 @@ export default function Password() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
+            }}
+            onClick={() =>{
+              window.location.href = '/settings';
             }}
           >
             <img

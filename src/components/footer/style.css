@@ -1,0 +1,53 @@
+/* footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90% !important;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .piyush-footer img {
+    width: 18px;
+    height: 18px;
+  }
+   .stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   }
+   .stars p{
+    display: inline-block;
+    color: white;
+   }
+  .footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .footer p {
+    font-size: 12px;
+  }
+  
+  .footer hr {
+    width: 100%;
+    height: 2px;
+    background: white;
+  }
+  
+  /* Add additional styling as needed */
+  /* CSS for phone devices */
+@media  (max-width: 500px) {
+    .footer{
+      width: 80% !important;
+    }
+}
